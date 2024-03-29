@@ -109,6 +109,7 @@ X40 PRO firmware 1.2.5.9 RC3 or newer is required for use, otherwise the plugin 
 ![image](http://www.x40-community.org/images/x40/ExtruderChangeover.png)
 Change-over Example:
 In the example, the standard cube was given a zebra look using the Extruder change-over plugin.
+
 ![image](http://www.x40-community.org/images/x40/Change-over_example.jpg)
 
 ## Feature:
