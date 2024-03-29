@@ -9,7 +9,7 @@ After activating the post processing plugin, the plugin remains active with the 
 
 ## Feature:
 
-###    G-Code auto conversion
+####    G-Code auto conversion
     The script automatically detects which operating system is being used. To avoid the display bug, the gcode is automatically converted to the DOS standard in Linux and MacOS.
 
     Use EEPROM data for mesh
