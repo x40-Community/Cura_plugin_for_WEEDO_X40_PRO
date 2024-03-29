@@ -6,7 +6,7 @@ The script works only together with Ultimaker Cura 5.X, the Cura configuration 2
 
 After activating the post processing plugin, the plugin remains active with the settings you have made until you change or remove it! Control commands added to the gcode are marked accordingly for information.
 
-Feature from Release 2.0.0:
+## Feature from Release 2.0.0:
 
     G-Code auto conversion
     The script automatically detects which operating system is being used. To avoid the display bug, the gcode is automatically converted to the DOS standard in Linux and MacOS.
@@ -54,4 +54,41 @@ Feature from Release 2.0.0:
  
 Use with other scripts together:
 
+
+
 If you want to use the X40 PRO script with other post-processing scripts, then the X40 PRO script should be executed last, i.e. at the bottom of the list. You can change the order using the arrows.
+
+## Installation
+
+Installation Cura 4.X for Windows:
+
+Copy the script X40Shnapshot.py into the Cura subdirectory:
+
+plugins\PostProcessingPlugins\scripts
+
+ 
+
+Installation Cura 5.X for Windows:
+
+Copy the script X40Shnapshot.py into the Cura subdirectory:
+
+share\cura\plugins\PostProcessingPlugin\scripts
+
+ 
+
+Installation Cura 5.X for Linux:
+
+Copy the script X40Shnapshot.py into the Cura subdirectory
+
+~/.local/share/cura/5.0/scripts
+
+ 
+## Application:
+
+Click in Cura:
+
+    Extensions -> Post Processing -> Modify G-Code
+
+    Now add  the script.
+
+The script is now permanently active for all projects. If you don't need it, you have to actively remove it again. 
