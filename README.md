@@ -85,3 +85,8 @@ Click in Cura:
     Now add  the script.
 
 The script is now permanently active for all projects. If you don't need it, you have to actively remove it again. 
+
+
+## Use with other scripts together:
+
+If you want to use the X40 PRO script with other post-processing scripts, then the X40 PRO script should be executed last, i.e. at the bottom of the list. You can change the order using the arrows.
