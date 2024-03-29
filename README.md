@@ -7,7 +7,7 @@ The Script doesn't work together with Weedo Cura and other Cura configurations.
 
 After activating the post processing plugin, the plugin remains active with the settings you have made until you change or remove it! Control commands added to the gcode are marked accordingly for information.
 
-## Feature from Release 2.0.0:
+## Feature:
 
     G-Code auto conversion
     The script automatically detects which operating system is being used. To avoid the display bug, the gcode is automatically converted to the DOS standard in Linux and MacOS.
