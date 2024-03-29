@@ -61,14 +61,6 @@ If you want to use the X40 PRO script with other post-processing scripts, then t
 
 ## Installation
 
-Installation Cura 4.X for Windows:
-
-Copy the script X40Shnapshot.py into the Cura subdirectory:
-
-plugins\PostProcessingPlugins\scripts
-
- 
-
 Installation Cura 5.X for Windows:
 
 Copy the script X40Shnapshot.py into the Cura subdirectory:
