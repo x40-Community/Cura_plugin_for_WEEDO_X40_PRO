@@ -88,9 +88,39 @@ The script is now permanently active for all projects. If you don't need it, you
 
 
 
-# Extruder Changeover Plugin
-
-
 ## Use with other scripts together:
 
 If you want to use the X40 PRO script with other post-processing scripts, then the X40 PRO script should be executed last, i.e. at the bottom of the list. You can change the order using the arrows.
+
+
+
+# Extruder Changeover Plugin
+
+With the help of the plugin you can insert the M924 command that triggers a change from the extruder. The M924 command corresponds to a manual extruder change-over, but also has the option to cool down the unused extruder.
+
+Command: M924
+Option: S0 = Extruder temperature is maintained
+Option: S1 = Cooldown unused Extruder after change (default)
+Target Extruder: T0 = left Extruder
+Target Extruder: T1 = right Extruder
+
+X40 PRO firmware 1.2.5.9 RC3 or newer is required for use, otherwise the plugin will not work!
+
+![image](http://www.x40-community.org/images/x40/ExtruderChangeover.png)
+Change-over Example:
+In the example, the standard cube was given a zebra look using the Extruder change-over plugin.
+![image](http://www.x40-community.org/images/x40/Change-over_example.jpg)
+
+## Feature:
+
+####    G-Code auto conversion
+    The script automatically detects which operating system is being used. To avoid the display bug, the gcode is automatically converted to the DOS standard in Linux and MacOS.
+
+####    Change-over to
+    Here you can indicate whether you want to change from the left extruder to the right or from the right to the left extruder.
+
+####    Change-over after layernumber
+    Here you can specify at which layer the M924 command should be inserted
+
+####    Cooldown unused Extruder
+    If you change the extruder manually via the touch display, the unused extruder will be cooled down after the change with the X40 PRO firmware. This can lead to problems with frequent switching between left-right, right-left, etc. and also to a longer printing time, as the cooled extruder first has to be heated up again. This option allows you to disable cool down.
