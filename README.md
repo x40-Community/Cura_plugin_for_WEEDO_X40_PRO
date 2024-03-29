@@ -1,6 +1,8 @@
 # Ultimaker Cura Plugin for WEEDO X40 PRO
 The script makes it very easy to control the Weedo X40 PRO printer. An Ultimaker Cura 5.X installation with X40 PRO configuration from the X40 community is required for the function. In addition, the Weedo X40 must have been updated to the latest X40 PRO firmware.
 
+The Script doesn't work together with Weedo Cura and other Cura configurations.
+
 ![image](http://www.x40-community.org/images/x40/Weedo_X40_PRO_Cura_Plugin-200.png)
 
 After activating the post processing plugin, the plugin remains active with the settings you have made until you change or remove it! Control commands added to the gcode are marked accordingly for information.
