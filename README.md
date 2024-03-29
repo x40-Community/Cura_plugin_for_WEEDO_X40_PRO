@@ -1,7 +1,6 @@
 # Ultimaker Cura Plugin for WEEDO X40 PRO
-Over time, the Cura plugin has also developed from a snapshot plugin to a full plugin for the Weddo X40 PRO. 
+The script makes it very easy to control the Weedo X40 PRO printer. An Ultimaker Cura 5.X installation with X40 PRO configuration from the X40 community is required for the function. In addition, the Weedo X40 must have been updated to the latest X40 PRO firmware.
 
-The script works only together with Ultimaker Cura 5.X, the Cura configuration 2.0.0 for Weedo X40 PRO (Start script Rev. 16) or newer and X40 PRO Firmware 1.2.5.9 or newer.
 ![image](http://www.x40-community.org/images/x40/Weedo_X40_PRO_Cura_Plugin-200.png)
 
 After activating the post processing plugin, the plugin remains active with the settings you have made until you change or remove it! Control commands added to the gcode are marked accordingly for information.
@@ -35,14 +34,14 @@ After activating the post processing plugin, the plugin remains active with the 
     Purge mode
     Purge mode can only be used if Disable Auto purge is not active.
 
-    - Parking position
-    If Parking position is selected, the gcode is not changed, the purge is carried out in the parking position
-
-    - Print purge line
-    This function can only be used in Single LH, Single RH, Duplicate or Mirrored modes. When activated, the purge in the parked position is replaced by a regular purge line on the left side of the print bed.
-
-    - Duplicate / Mirror Mode purge
-    This option can only be used in Duplicate or Mirror mode. When activated, the print bed is moved forward for the purge.
+        - Parking position
+        If Parking position is selected, the gcode is not changed, the purge is carried out in the parking position
+    
+        - Print purge line
+        This function can only be used in Single LH, Single RH, Duplicate or Mirrored modes. When activated, the purge in the parked position is replaced by a regular purge line on the left side of the print bed.
+    
+        - Duplicate / Mirror Mode purge
+        This option can only be used in Duplicate or Mirror mode. When activated, the print bed is moved forward for the purge.
 
 
     Insert pause at layer
