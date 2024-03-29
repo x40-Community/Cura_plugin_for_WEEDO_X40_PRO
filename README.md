@@ -12,28 +12,28 @@ After activating the post processing plugin, the plugin remains active with the 
 ####    G-Code auto conversion
     The script automatically detects which operating system is being used. To avoid the display bug, the gcode is automatically converted to the DOS standard in Linux and MacOS.
 
-    Use EEPROM data for mesh
+####    Use EEPROM data for mesh
     When automatic bed leveling is performed, the measurement data is stored in EEPROM. If this function is activated, the automatic bed leveling is deactivated at the start of printing and the last measurement data from the EEPROM are used instead. You can only use this function if you have not made any major changes to the print bed. With a large, long print, you should always use automatic bed leveling to ensure the best possible bed adhesion.
 
-    Insert Thumbnail
+####    Insert Thumbnail
     If the Insert Thumbnail function is activated, a 180x180 pixel preview image in JPEG format is embedded in the gcode. The thumbnail can be displayed on the print display or via the Octopi Thumbnail Plugin from ours distribution. Unfortunately, the background of the image is black because Cura does not allow a different setting for JPEG's.
 
-    Switch Power off after printing
+####    Switch Power off after printing
     When activated, the M81 control command is inserted at the end of the gcode, which switches off the print. If you control the printer via USB or LAN, then Auto Power Off must be switched off on the printer. To switch off the printer anyway, activate this function in the plugin. 
 
-    Disable Power-loss Recovery
+####    Disable Power-loss Recovery
     With the Weedo X40, the power-loss recovery function is active by default. In the event of a power failure, you will be asked if you want to continue printing after switching it on again. This only works if you have printed from the MicroSD card. If you control the printer via USB/network, then power-loss recovery should be deactivated, as it does not work and there is no query after switching on again.
      
-    Disable Runout Sensor
+####    Disable Runout Sensor
     This function works only correctly with the firmware 1.2.5.8 or newer. This option works like a switch. If you activate the option, then the runout sensor will be deactivated, otherwise the runout sensor will be activated.
 
-    Disable Multiwipes
+####    Disable Multiwipes
     With the X40 PRO firmware you can activate/deactivate a wiping function (command M923) when changing the tool (LH/RH or RH/LH), which removes filament residue from the nozzle and makes the print cleaner. By default, Muliwipe is active. Disable Multiwipe when using a Prime Tower for printing.
 
-    Disable Auto purge
+####    Disable Auto purge
     With the X40 PRO firmware you can activate/deactivate a pre-extrusion (command M922) during tool change (LH/RH or RH/LH), which is carried out before the tool change and the multiwipe function. Disable Auto purge when using a Prime Tower for printing.
 
-    Purge mode
+####    Purge mode
     Purge mode can only be used if Disable Auto purge is not active.
 
         - Parking position
@@ -46,10 +46,10 @@ After activating the post processing plugin, the plugin remains active with the 
         This option can only be used in Duplicate or Mirror mode. When activated, the print bed is moved forward for the purge.
 
 
-    Insert pause at layer
+####    Insert pause at layer
     With this function you can insert an M0 pause command (works only with X40 PRO Firmware) at the specified layer. To continue printing, confirm on the display. The pause function only works when you print from the MicroSD card! You can use the pause function to insert and embed a component, e.g. a nut, in the print. You can find out the correct layer using Cura in Preview mode and the slider on the right-hand side.
 
-    Cool down build plate slowly
+####    Cool down build plate slowly
     To be able to use this function, you must deactivate the Auto-Power off and Save Energy functions on the printer touch screen. When this function is activated, the print bed after the printer is cooled down very slowly. To save power and know when the printer is finished, you should enable "Switch Power off after printing" option in the plugin. Slow cooling down reduces warping in ABS and PA, for example.
 
  
