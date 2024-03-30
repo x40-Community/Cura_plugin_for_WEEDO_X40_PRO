@@ -49,7 +49,7 @@ After activating the post processing plugin, the plugin remains active with the 
 
 
 ####    Insert pause at layer
-    With this function you can insert an M0 pause command (works only with X40 PRO Firmware) at the specified layer. To continue printing, confirm on the display. The pause function only works when you print from the MicroSD card! You can use the pause function to insert and embed a component, e.g. a nut, in the print. You can find out the correct layer using Cura in Preview mode and the slider on the right-hand side.
+    With this function you can insert an M0 pause command at the specified layer. To continue printing, confirm on the display. The pause function only works when you print from the MicroSD card! You can use the pause function to insert and embed a component, e.g. a nut, in the print. You can find out the correct layer using Cura in Preview mode and the slider on the right-hand side.
 
 ####    Cool down build plate slowly
     To be able to use this function, you must deactivate the Auto-Power off and Save Energy functions on the printer touch screen. When this function is activated, the print bed after the printer is cooled down very slowly. To save power and know when the printer is finished, you should enable "Switch Power off after printing" option in the plugin. Slow cooling down reduces warping in ABS and PA, for example.
