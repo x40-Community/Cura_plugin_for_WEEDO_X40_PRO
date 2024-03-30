@@ -60,10 +60,11 @@ Use with other scripts together:
 If you want to use the X40 PRO script with other post-processing scripts, then the X40 PRO script should be executed last, i.e. at the bottom of the list. You can change the order using the arrows.
 
 ## Installation
+Do not rename the Python script!
 
 Installation Cura 5.X for Windows:
 
-Copy the script X40Shnapshot.py into the Cura subdirectory:
+Copy the Python script into the Cura subdirectory:
 
 share\cura\plugins\PostProcessingPlugin\scripts
 
@@ -71,7 +72,7 @@ share\cura\plugins\PostProcessingPlugin\scripts
 
 Installation Cura 5.X for Linux:
 
-Copy the script X40Shnapshot.py into the Cura subdirectory
+Copy the Python script into the Cura subdirectory
 
 ~/.local/share/cura/5.0/scripts
 
