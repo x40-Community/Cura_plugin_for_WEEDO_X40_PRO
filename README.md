@@ -62,7 +62,7 @@ If you want to use the X40 PRO script with other post-processing scripts, then t
 ## Installation
 Do not rename the Python script!
 
-Installation Cura 5.X for Windows:
+#### Installation Cura 5.X for Windows:
 
 Copy the Python script into the Cura subdirectory:
 
@@ -70,7 +70,7 @@ share\cura\plugins\PostProcessingPlugin\scripts
 
  
 
-Installation Cura 5.X for Linux:
+#### Installation Cura 5.X for Linux:
 
 Copy the Python script into the Cura subdirectory
 
