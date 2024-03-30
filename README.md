@@ -2,7 +2,7 @@
 The script makes it very easy to control the Weedo X40 PRO printer. An Ultimaker Cura 5.X installation with X40 PRO configuration from the X40 community is required for the function. In addition, the Weedo X40 must have been updated to the latest X40 PRO firmware.
 #### Video:
 - Youtube Demo Video (old Plugin Version) https://www.youtube.com/watch?v=T580yVQAL4M
-- Youtube Demo Vodeo (old Firmware Version) https://www.youtube.com/watch?v=hFpMcKlDiqc
+- Youtube Demo Video (old Firmware Version) https://www.youtube.com/watch?v=hFpMcKlDiqc
 
 ### Link:
 - X40 PRO firmware https://github.com/x40-Community/X40_PRO-Firmware
